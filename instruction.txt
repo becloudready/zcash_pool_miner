@@ -5,4 +5,4 @@ sh assemble.sh
 cd ../../../Linux_cmake/nheqminer_cpu
 cmake .
 make -j $(nproc)
-
+./nheqminer_cpu -l zec.suprnova.cc:2142 -u worker -p <password> -t 3
